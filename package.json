@@ -1,0 +1,27 @@
+{
+  "name": "multibot",
+  "version": "0.0.1",
+  "description": "Multiple Bot server",
+  "main": "start.js",
+  "scripts": {
+    "start": "nodemon /app.coffee --watch models --watch bots",
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jakecarpenter/multibot.git"
+  },
+  "author": "Jake Carpenter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakecarpenter/multibot/issues"
+  },
+  "homepage": "https://github.com/jakecarpenter/multibot#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "dotenv": "^1.2.0",
+    "mongoose": "^4.3.4",
+    "natural": "^0.2.1",
+    "slackbots": "^0.5.0"
+  }
+}
